@@ -1,0 +1,158 @@
+ul {
+    padding: 0px!important;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+}
+main .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+.redes-sociais ul li {
+    margin-left: 25px;
+    float: left;
+    list-style: none;
+    }
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+  
+}
+.menu-urls{
+    border-bottom: 5px solid black;
+    height: 80px;
+}
+.menu ul li {
+    display: inline-block;
+    color: gray;
+    margin-left: 15px;
+    
+}
+.menu ul li a:hover {
+    color: cyan;
+    border-bottom: 2px solid cyan;
+}
+.menu ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width:30%;
+    float: right;
+}
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 14px;
+    padding: 11px;
+    width: 188px;
+    margin-top: 6px;
+    background-position: 96%;
+    border: 1px solid black;
+}
+.coluna-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    position: absolute;
+    font-size: 0px;
+    display: inline-block;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    z-index: 9;
+    top: 35%;
+    left: 9%;
+}
+button.slick-next {
+    position: absolute;
+    font-size: 0px;
+    display: inline-block;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/anterior.png);
+    z-index: 9;
+    top: 35%;
+    right: 9%;
+    transform: scaleX(-1);
+
+}
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 90%;
+}
+.slick-dots li {
+    display: inline-block;
+    padding: 10px;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid rgb(187, 187, 187);
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 50%;
+
+}
+li.slick-active button {
+    background-color:white ;
+    opacity: 90%;
+}
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque strong{
+    color: rgb(180, 161, 147);
+}
+
+.texto-destaque h1 {
+    color: rgba(128, 128, 128, 0.315);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto-destaque p{
+    color: gray;
+    font-size: 15px;
+}
