@@ -156,3 +156,15 @@ li.slick-active button {
     color: gray;
     font-size: 15px;
 }
+.coluna-3 {
+    padding: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.bloco-texto {
+    margin-top: 3%;
+}
+h3 {
+    font-weight: normal !important;
+}
