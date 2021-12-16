@@ -79,7 +79,7 @@ main .content{
 }
 .coluna-100 {
     width: 100%;
-    float: left;
+    float: right;
     position: relative;
 }
 button.slick-prev {
@@ -167,4 +167,7 @@ li.slick-active button {
 }
 h3 {
     font-weight: normal !important;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
 }
